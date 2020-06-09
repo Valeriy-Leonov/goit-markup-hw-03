@@ -1,0 +1,203 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --white-text-color: #ffffff;
+  --akcent: #2196f3;
+  --button-second: #f5f4fa;
+}
+a {
+  text-decoration: none;
+}
+
+.page {
+  background: #f5f4fa;
+  color: #212121;
+  font-family: "roboto", sans-serif;
+}
+
+.logo {
+  color: var(--primary-text-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.logo-color {
+  color: var(--akcent);
+}
+
+.logo:hover {
+  color: var(--akcent);
+}
+
+.logo-footer {
+  color: var(--primary-text-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 1.2;
+}
+.logo-footer-color {
+  color: var(--akcent);
+}
+
+.logo-footer:hover {
+  color: var(--akcent);
+}
+
+.list {
+  list-style: none;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+}
+/* site-nav */
+.site-nav a {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+}
+.site-nav .link.current {
+  color: var(--akcent);
+}
+.site-nav :hover,
+.site-nav :focus {
+  color: var(--akcent);
+}
+
+/* contact list */
+.site-nav-contact a {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+}
+.site-nav-contact :hover,
+.site-nav-contact :focus {
+  color: var(--akcent);
+}
+
+/* hero */
+.hero-title {
+  color: var(--white-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* section */
+.section-title {
+  color: var(--primary-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+/* feauteres */
+.feauteres-title {
+  color: var(--secondary-text-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+/* button */
+.button {
+  color: var(--white-text-color);
+  background-color: var(--akcent);
+  font-family: Roboto;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.button-second {
+  color: var(--primary-text-color);
+  background-color: var(--button-second);
+}
+
+/* white-text-title*/
+.white-text-title {
+  color: var(--white-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2;
+}
+.nick-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.profession {
+  color: var(--secondary-text-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.footer-text-title {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.8;
+}
+.footer-white-title {
+  color: var(--white-text-color);
+  font-size: 14px;
+  line-height: 1.8;
+  font-style: normal;
+}
+
+.social-contact {
+  color: var(--white-text-color);
+  font-size: 14px;
+  line-height: 1.1;
+}
+.goit-developed {
+  color: var(--secondary-text-color);
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+}
+
+.button-partfolio {
+  color: var(--white-text-color);
+  background-color: var(--akcent);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.button-second-partfolio {
+  color: var(--primary-text-color);
+  background-color: var(--button-second);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* partfolio-text-title */
+.partfolio-text-title {
+  color: var(--secondary-text-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 2;
+}
+.name-project {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--primary-text-color);
+}
+.partfolio-description {
+  color: var(--white-text-color);
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.6;
+}
