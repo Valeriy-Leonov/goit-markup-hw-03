@@ -201,3 +201,11 @@ a {
   font-size: 18px;
   line-height: 1.6;
 }
+
+.box-container {
+  border: 5px solid tomato;
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
