@@ -14,36 +14,45 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <div class="box-container">
-    <body class="page">
+  <body class="page">
+    <div class="box-container">
       <!--шапка-->
 
       <header class="page-header">
-        <div class="container">
-          <nav>
-            <a href="./index.html" class="logo"
-              ><span class="logo-color"> Web </span> Studio</a
-            >
-            <ul class="site-nav list">
-              <li><a href="./index.html" class="link current">Студия</a></li>
-              <li><a href="./partfolio.html">Портфолио</a></li>
-              <li><a href="">Контакты</a></li>
-            </ul>
-          </nav>
-          <ul class="site-nav-contact list">
-            <li>
-              <a href="mailto:info@example.com">info@devstudio.com</a>
-            </li>
-            <li>
-              <a href="tel:+380991111111">+38 096 111 11 11</a>
-            </li>
+        <nav class="nav">
+          <a href="./index.html" class="logo"
+            ><span class="logo-color"> Web</span> Studio</a
+          >
+          <ul class="site-nav">
+            <li><a href="./index.html" class="link current">Студия</a></li>
+            <li><a href="./partfolio.html">Портфолио</a></li>
+            <li><a href="">Контакты</a></li>
           </ul>
-        </div>
+        </nav>
+        <ul class="site-nav-contact">
+          <li>
+            <a href="mailto:info@example.com" class="item-center">
+              <img
+                src="images/envelope (hover).svg"
+                alt=""
+                class="envelope"
+              />info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380991111111" class="item-center"
+              ><img src="images/smartphone (hover).svg" alt=""
+              class="smartphone" / >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </header>
       <main>
         <!--герой-->
         <div class="hero">
-          <h1 class="hero-title">
+          <img src="/images/img overlay.svg" alt="" / class="overlay"> <img
+          src="/images/Header.jpg" alt="" / >
+          <h1 class="hero-text">
             Эффективные решения <br />
             для вашего бизнеса
           </h1>
@@ -51,43 +60,45 @@
         </div>
         <!--Наши преимущества-->
         <section class="section">
-          <div class="container">
-            <ul class="list">
-              <li>
-                <img src="images/antenna-1.svg" alt="" />
-                <h3>Внимание к деталям</h3>
-                <p class="feauteres-title">
-                  Идейные соображения, а также начало повседневной работы по
-                  формированию позиции.
-                </p>
-              </li>
-              <li>
-                <img src="images/clock-1.svg" alt="" />
-                <h3>Пунктуальность</h3>
-                <p class="feauteres-title">
-                  Задача организации, в особенности же рамки и место обучения
-                  кадров влечет за собой.
-                </p>
-              </li>
-              <li>
-                <img src="images/diagram-1.svg" alt="" />
-                <h3>Планирование</h3>
-                <p class="feauteres-title">
-                  Равным образом консультация с широким активом в значительной
-                  степени обуславливает.
-                </p>
-              </li>
-              <li>
-                <img src="images/astronaut-1.svg" alt="" />
+          <ul class="container">
+            <li>
+              <img src="/images/Rectangle 1.svg" alt="" / class="rectange"> <img
+              src="images/antenna-1.svg" alt="" / class="rectange1">
+              <h3 class="text-rectange">Внимание к деталям</h3>
+              <p class="feauteres-title">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li>
+              <img src="/images/Rectangle 2.svg" alt="" / class="rectange"> <img
+              src="images/clock-1.svg" alt="" / class="rectange1">
+              <h3 class="text-rectange">Пунктуальность</h3>
+              <p class="feauteres-title">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li>
+              <img src="/images/Rectangle 3.svg" alt="" / class="rectange"> <img
+              src="images/diagram-1.svg" alt="" / class="rectange1">
+              <h3 class="text-rectange">Планирование</h3>
+              <p class="feauteres-title">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li>
+              <img src="/images/Rectangle 4.svg" alt="" / class="rectange"> <img
+              src="images/astronaut-1.svg" alt="" / class="rectange1">
 
-                <h3>Современные технологии</h3>
-                <p class="feauteres-title">
-                  Значимость этих проблем настолько очевидна, что реализация
-                  плановых заданий.
-                </p>
-              </li>
-            </ul>
-          </div>
+              <h3 class="text-rectange">Современные технологии</h3>
+              <p class="feauteres-title">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
         </section>
         <!--Чем мы занимаемся-->
         <section class="section">
@@ -283,6 +294,6 @@
         </div>
         <p class="goit-developed">2020 | Developed by GoIT Students</p>
       </footer>
-    </body>
-  </div>
+    </div>
+  </body>
 </html>
