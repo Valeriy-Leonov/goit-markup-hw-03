@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
@@ -6,17 +11,9 @@
   --button-second: #f5f4fa;
 }
 
-.section {
-}
-
 section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 a {
@@ -187,32 +184,55 @@ ul {
   position: absolute;
 }
 /* section */
+.test-container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.section {
-  width: 1170px;
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: teal;
+}
+
+.flex-element {
+  width: calc((100% - 90px) / 4);
+  margin-right: 30px;
+  background-color: tomato;
+  width: 270px;
   height: 251px;
 }
-
-.container {
-  display: flex;
-  align-items: flex;
-  justify-content: space-between;
-  width: 270px;
+.flex-element:nth-child(4n) {
+  margin-right: 30px;
 }
-
 .rectange {
+  position: absolute;
+  margin-top: auto;
+  margin-left: auto;
+  width: 270px;
+  height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
 }
+
 .rectange1 {
-  margin-left: 100px;
-  margin-right: 100px;
   margin-top: 25px;
+  margin-left: 100px;
   margin-bottom: 25px;
+  margin-right: 100px;
+  position: absolute;
   width: 70px;
-}
-.text-rectange {
   color: #212121;
+}
+
+.text-rectange {
+  margin-top: 150px;
+  position: absolute;
+  width: 270px;
+  height: 16px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -220,7 +240,7 @@ ul {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-top: 150px;
+  color: #212121;
 }
 
 .section-title {
@@ -235,6 +255,9 @@ ul {
 /* feauteres */
 .feauteres-title {
   margin-top: 176px;
+  position: absolute;
+  width: 270px;
+  height: 75px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -243,6 +266,7 @@ ul {
   letter-spacing: 0.03em;
   color: #757575;
 }
+
 /* button */
 .button {
   color: var(--white-text-color);
