@@ -348,6 +348,49 @@ ul {
   background: #f5f4fa;
 }
 
+.clients {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.client-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.clients-title {
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding-top: 20px;
+}
+
+.line {
+  width: 1170px;
+  border: 1px solid #ececec;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.container-footer {
+  width: 1600px;
+  height: 253px;
+  background: #2f303a;
+}
+.footer-element {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* white-text-title*/
 
 .white-text-title {
