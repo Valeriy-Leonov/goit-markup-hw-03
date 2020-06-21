@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 :root {
-  --primary-text-color: #212121;
+  --primary-text-color: #000000;
   --secondary-text-color: #757575;
   --white-text-color: #ffffff;
   --akcent: #2196f3;
@@ -265,6 +265,15 @@ ul {
   color: #757575;
 }
 
+.bg-svg {
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  border-radius: 0px;
+  margin-top: 224px;
+}
+
 /* button */
 .button {
   color: var(--white-text-color);
@@ -299,11 +308,23 @@ ul {
 }
 
 /* white-text-title*/
+
 .white-text-title {
-  color: var(--white-text-color);
+  position: absolute;
+  font-family: Roboto;
+  font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 27px;
+  margin-bottom: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .nick-name {
   font-weight: 500;
