@@ -311,6 +311,8 @@ ul {
 
 .white-text-title {
   position: absolute;
+  margin-top: 251px;
+  margin-left: 85px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -319,12 +321,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
-  margin-top: 27px;
-  margin-bottom: 27px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  color: var(--white-text-color);
 }
 .nick-name {
   font-weight: 500;
