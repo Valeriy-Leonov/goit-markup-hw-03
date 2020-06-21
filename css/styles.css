@@ -307,6 +307,47 @@ ul {
   background-color: var(--button-second);
 }
 
+.our-team {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-team-second {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 206px;
+  height: 44px;
+}
+
+.our-team-social {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.our-team-social:nth-child(1n) {
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 16px;
+}
+
+.team-background {
+  width: 270px;
+  height: 422px;
+  background: #ffffff;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.bockground-our-team {
+  width: 1600px;
+  height: 702px;
+  background: #f5f4fa;
+}
+
 /* white-text-title*/
 
 .white-text-title {
@@ -318,22 +359,32 @@ ul {
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
-  text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-text-color);
 }
 .nick-name {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-top: 30px;
 }
 
 .profession {
-  color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-top: 10px;
 }
 .footer-text-title {
   color: var(--secondary-text-color);
