@@ -409,7 +409,8 @@ ul {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  margin-top: 84px;
+  margin-top: 10px;
+  margin-left: 214px;
 }
 
 .list-item {
@@ -417,10 +418,18 @@ ul {
   margin-top: 21px;
 }
 
-.social-contact {
-  margin-left: 300px;
-  margin-top: 56px;
-  color: var(--white-text-color);
+.footer-container {
+  width: 1600px;
+  height: 253px;
+  background-color: #2f303a;
+}
+.section-footer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo-footer-top {
+  margin-top: 54px;
 }
 
 .logo-footer {
@@ -431,9 +440,7 @@ ul {
   font-size: 22px;
   line-height: 26px;
   letter-spacing: 0.03em;
-  margin-top: 48px;
-  width: 129px;
-  height: 26px;
+  margin-left: 214px;
 }
 
 .logo-footer-color {
@@ -444,30 +451,17 @@ ul {
   line-height: 26px;
   letter-spacing: 0.03em;
   color: var(--akcent);
+  margin-top: 48px;
 }
 
 .logo-footer:hover {
   color: var(--akcent);
 }
 
-.section-footer {
-  width: 1600px;
-  background-color: #2f303a;
-}
-
-.container-footer {
-  display: flex;
-  width: 1200px;
-  height: 253px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.footer-element {
-  display: inline-block;
-  display: flex;
+.social-contact {
+  color: var(--white-text-color);
+  margin-left: 69px;
+  margin-top: 56px;
 }
 
 .list {
@@ -485,15 +479,16 @@ ul {
   color: var(--secondary-text-color);
   font-size: 12px;
   line-height: 2;
+  margin-bottom: 23px;
+  margin-top: 18px;
   text-align: center;
-  align-items: center;
-  justify-content: center;
-  margin-top: 50px;
 }
 
 .line2 {
   width: 1170px;
   border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 28px;
+  margin-left: 214px;
 }
 .button-partfolio {
   color: var(--white-text-color);
