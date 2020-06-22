@@ -152,8 +152,6 @@ ul {
 }
 .overlay {
   color: rgba(47, 48, 58, 0.8);
-  max-width: 1600px;
-  height: 600px;
   position: absolute;
 }
 /* section */
