@@ -150,6 +150,10 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+
+.img-overlay {
+  background-image: url(../images/header.jpg);
+}
 .overlay {
   color: rgba(47, 48, 58, 0.8);
   width: 1600px;
