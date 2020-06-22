@@ -155,7 +155,7 @@ ul {
   width: 1600px;
   height: 600px;
   position: absolute;
-  background-image: url(../images/header.jpg);
+  background-image: url(../images/imgoverlay.svg);
 }
 /* section */
 .test-container {
@@ -427,6 +427,12 @@ ul {
 .section-footer {
   display: flex;
   justify-content: flex-start;
+}
+
+.footer-text {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
 }
 
 .logo-footer-top {
