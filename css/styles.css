@@ -155,6 +155,7 @@ ul {
   width: 1600px;
   height: 600px;
   position: absolute;
+  background-image: url(../images/header.jpg);
 }
 /* section */
 .test-container {
@@ -464,15 +465,17 @@ ul {
   margin-top: 56px;
 }
 
-.list {
-  list-style: none;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.1;
-  padding: 0;
-  margin: 0;
+.about-profession {
   display: flex;
   justify-content: space-between;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
 }
 
 .goit-developed {
@@ -490,6 +493,19 @@ ul {
   margin-top: 28px;
   margin-left: 214px;
 }
+.line3 {
+  width: 1600px;
+  height: 0px;
+  border: 1px solid #ececec;
+}
+
+.content-partfolio {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 .button-partfolio {
   color: var(--white-text-color);
   background-color: var(--akcent);
