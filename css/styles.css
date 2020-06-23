@@ -152,7 +152,7 @@ ul {
 }
 
 .img-overlay {
-  background-image: url(../images/header.jpg);
+  background-image: url(../images/imgoverlay.svg), url(../images/header.jpg);
 }
 .overlay {
   color: rgba(47, 48, 58, 0.8);
