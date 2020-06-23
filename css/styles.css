@@ -152,7 +152,6 @@ ul {
 }
 
 .img-overlay {
-  
   background-image: url(../images/header.jpg);
 }
 .overlay {
@@ -181,8 +180,14 @@ ul {
 
 .flex-element-partfolio {
   height: 404px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
+  margin-top: 30px;
 }
 .flex-element-partfolio:nth-child(3n) {
   margin-right: 0;
@@ -580,15 +585,10 @@ ul {
   color: var(--primary-text-color);
 }
 .partfolio-description {
-  font-family: Roboto;
-  font-style: normal;
+  color: var(--white-text-color);
   font-weight: normal;
   font-size: 18px;
-  line-height: 28px;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  background: rgba(33, 150, 243, 0.9);
-  ba
+  line-height: 1.6;
 }
 
 .box-container-partfolio {
