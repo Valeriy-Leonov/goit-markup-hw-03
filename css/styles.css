@@ -442,7 +442,10 @@ ul {
 
 .list-item {
   display: flex;
+  justify-content: space-between;
   margin-top: 21px;
+  width: 206px;
+  height: 44px;
 }
 
 .footer-container {
