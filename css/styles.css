@@ -152,6 +152,7 @@ ul {
 }
 
 .img-overlay {
+  
   background-image: url(../images/header.jpg);
 }
 .overlay {
@@ -168,6 +169,23 @@ ul {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+.flex-container-partfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-button-portfolio {
+  display: flex;
+}
+
+.flex-element-partfolio {
+  height: 404px;
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+}
+.flex-element-partfolio:nth-child(3n) {
+  margin-right: 0;
 }
 
 .flex-container {
@@ -516,21 +534,24 @@ ul {
   margin: 0 auto;
 }
 
-.button-partfolio {
-  color: var(--white-text-color);
-  background-color: var(--akcent);
-  font-family: inherit;
+.button-partfolio-first {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.button-partfolio {
+  width: 73px;
+  height: 38px;
+  background: #2196f3;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 3px 1px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
-  padding: 6px 22px;
-  text-align: center;
-  position: absolute;
-  width: 73px;
-  height: 38px;
 }
 
 .button-second-partfolio {
@@ -559,10 +580,23 @@ ul {
   color: var(--primary-text-color);
 }
 .partfolio-description {
-  color: var(--white-text-color);
+  font-family: Roboto;
+  font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background: rgba(33, 150, 243, 0.9);
+  ba
+}
+
+.box-container-partfolio {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .box-container {
