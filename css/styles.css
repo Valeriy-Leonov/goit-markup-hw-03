@@ -10,8 +10,25 @@
   --akcent: #2196f3;
   --button-second: #f5f4fa;
 }
+.sectioncontainer {
+  width: 1600px;
+}
 
 section {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+section.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -124,10 +141,13 @@ ul {
   line-height: 1.4;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
 }
 
 .hero {
-  max-width: 1600px;
+  padding-left: 15px;
+  padding-right: 15px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -137,19 +157,13 @@ ul {
       rgba(47, 48, 58, 0.8)
     ),
     url(../images/header.jpg);
+  background-repeat: no-repeat;
+  background-size: 1600px;
+  background-position: center;
 }
 
 .hero-text {
   color: var(--white-text-color);
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  top: 80px;
-  margin-top: 200px;
-  margin-bottom: 280px;
-  margin-left: 452px;
-  margin-right: 452px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -157,6 +171,7 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  padding-top: 200px;
 }
 
 .img-overlay {
@@ -165,13 +180,6 @@ ul {
   color: rgba(47, 48, 58, 0.8);
 }
 /* section */
-.test-container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .flex-container-partfolio {
   display: flex;
   flex-wrap: wrap;
@@ -204,17 +212,50 @@ ul {
 .flex-container {
   display: flex;
   justify-content: space-between;
-}
-
-.flex-element {
-  width: calc((100% - 90px) / 4);
-  margin-right: 30px;
-  width: 270px;
   height: 251px;
 }
-.flex-element:nth-child(1n) {
-  margin-right: 0px;
+
+.flex-element1 {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  background-image: url(../images/antenna-1.svg), url(../images/Rectangle1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
+.flex-element2 {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  background-image: url(../images/clock-1.svg), url(../images/Rectangle1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.flex-element3 {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  background-image: url(../images/diagram-1.svg), url(../images/Rectangle1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.flex-element4 {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  background-image: url(../images/astronaut-1.svg),
+    url(../images/Rectangle1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .rectange {
   position: absolute;
   margin-top: auto;
@@ -236,11 +277,7 @@ ul {
 }
 
 .text-rectange {
-  margin-top: 150px;
-  position: absolute;
-  width: 270px;
-  height: 16px;
-  font-family: Roboto;
+  padding-top: 150px;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -261,12 +298,8 @@ ul {
 
 /* feauteres */
 .feauteres-title {
-  display: inline-block;
-  margin-top: 176px;
-  position: absolute;
-  width: 270px;
-  height: 75px;
-  font-family: Roboto;
+  padding-top: 10px;
+  margin-bottom: 0px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -275,13 +308,34 @@ ul {
   color: #757575;
 }
 
-.bg-svg {
-  position: absolute;
+.about-us {
   width: 370px;
-  height: 70px;
-  background: rgba(47, 48, 58, 0.8);
+  height: 294px;
+}
+
+.bg-svg1 {
+  width: 370px;
+  background-color: rgba(47, 48, 58, 0.8);
+  background-image: url(../images/bg.svg), url(../images/1.jpg);
   border-radius: 0px;
-  margin-top: 224px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.bg-svg2 {
+  width: 370px;
+  background-color: rgba(47, 48, 58, 0.8);
+  background-image: url(../images/bg.svg), url(../images/2.jpg);
+  border-radius: 0px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.bg-svg3 {
+  width: 370px;
+  background-color: rgba(47, 48, 58, 0.8);
+  background-image: url(../images/bg.svg), url(../images/3.jpg);
+  border-radius: 0px;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 /* button */
@@ -294,19 +348,16 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   min-width: 130px;
-  position: absolute;
-  margin-top: 350px;
-  margin-bottom: 200px;
-  margin-left: 700px;
-  margin-right: 700px;
-  top: 80px;
   width: 200px;
   height: 50px;
+  margin-left: auto;
+  margin-right: auto;
   letter-spacing: 0.06em;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
+  margin-top: 30px;
 }
 
 .button-second {
@@ -333,6 +384,7 @@ ul {
   justify-content: center;
   margin: 0px;
   padding: 0px;
+  margin-bottom: 24px;
 }
 
 .our-team-social:nth-child(1n) {
@@ -341,18 +393,50 @@ ul {
   margin-top: 16px;
 }
 
-.team-background {
+.team-background1 {
   width: 270px;
-  height: 422px;
   background: #ffffff;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
+  background-image: url(../images/4.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
-.bockground-our-team {
+.team-background2 {
+  width: 270px;
+  background: #ffffff;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  background-image: url(../images/5.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.team-background3 {
+  width: 270px;
+  background: #ffffff;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  background-image: url(../images/6.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.team-background4 {
+  width: 270px;
+  background: #ffffff;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  background-image: url(../images/7.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.background-our-team {
   width: 1600px;
-  height: 702px;
-  background: #f5f4fa;
+  background-color: #f5f4fa;
+  margin: 0 auto;
 }
 
 .clients {
@@ -389,28 +473,23 @@ ul {
 /* white-text-title*/
 
 .white-text-title {
-  position: absolute;
-  margin-top: 251px;
-  margin-left: 85px;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-text-color);
+  text-align: center;
+  margin-top: 251px;
 }
 .nick-name {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-top: 30px;
+  margin-top: 290px;
 }
 
 .margin {
@@ -418,9 +497,6 @@ ul {
 }
 
 .profession {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
@@ -456,7 +532,7 @@ ul {
 
 .footer-container {
   width: 1600px;
-  height: 253px;
+  margin: 0 auto;
   background-color: #2f303a;
 }
 .section-footer {
@@ -509,6 +585,7 @@ ul {
 .about-profession {
   display: flex;
   justify-content: space-between;
+  height: 294px;
 }
 
 .list {
@@ -523,7 +600,7 @@ ul {
   color: var(--secondary-text-color);
   font-size: 12px;
   line-height: 2;
-  margin-bottom: 23px;
+  padding-bottom: 23px;
   margin-top: 18px;
   text-align: center;
 }
@@ -535,7 +612,6 @@ ul {
   margin-left: 214px;
 }
 .line3 {
-  width: 1600px;
   height: 0px;
   border: 1px solid #ececec;
 }
@@ -611,7 +687,6 @@ ul {
 }
 
 .box-container-partfolio {
-  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   list-style-type: none;
@@ -619,7 +694,6 @@ ul {
 }
 
 .box-container {
-  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
